@@ -21,16 +21,6 @@ const connect = function () {
     // send name to server
     conn.write("Name: KLB");
   })
-  
-  // conn.on("connect", () => {
-  //   conn.write("Move: up");
-  // });
-
-  // conn.on("connect", () => {
-  //   setInterval(() => {
-  //     conn.write("Move: up");
-  //   }, 1000);
-  // });
 
   return conn;
 };
